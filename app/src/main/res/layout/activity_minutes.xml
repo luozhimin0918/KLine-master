@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/minute_black"
     tools:context="com.example.yanjiang.stockchart.MinutesActivity">
 
     <com.example.yanjiang.stockchart.mychart.MyLineChart
@@ -27,6 +26,7 @@
         android:id="@+id/bar_chart"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:visibility="gone"
         android:layout_weight="1">
 
     </com.example.yanjiang.stockchart.mychart.MyBarChart>
