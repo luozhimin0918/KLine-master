@@ -144,13 +144,13 @@ public class MinutesActivity extends BaseActivity {
 
     private void initChart() {
         lineChart.setScaleEnabled(false);
-        lineChart.setDrawBorders(true);
+        lineChart.setDrawBorders(false);
         lineChart.setBorderWidth(1);
         lineChart.setBorderColor(getResources().getColor(R.color.minute_grayLine));
         lineChart.setDescription("");
         Legend lineChartLegend = lineChart.getLegend();
         lineChartLegend.setEnabled(false);
-
+         //成交量隐藏了这个界面
         barChart.setScaleEnabled(false);
         barChart.setDrawBorders(true);
         barChart.setBorderWidth(1);
