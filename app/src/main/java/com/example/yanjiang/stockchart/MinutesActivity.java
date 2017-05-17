@@ -312,8 +312,8 @@ public class MinutesActivity extends BaseActivity {
 
         d1.setCircleRadius(0);
         d2.setCircleRadius(0);
-        d1.setColor(getResources().getColor(R.color.minute_blue));
-        d2.setColor(getResources().getColor(R.color.minute_yellow));
+        d1.setColor(getResources().getColor(R.color.minute_zhoutv));
+        d2.setColor(getResources().getColor(R.color.touming));
         d1.setHighLightColor(Color.BLACK);
         d2.setHighlightEnabled(false);
         d1.setDrawFilled(true);
